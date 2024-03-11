@@ -13,4 +13,8 @@ html {
 body {
   background-color: $colorYellow;
   font-family: $fontFamily;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
