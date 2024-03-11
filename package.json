@@ -1,0 +1,15 @@
+{
+  "name": "blog-preview-card",
+  "version": "1.0.0",
+  "description": "![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass ./src/scss/index.scss ./assets/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
