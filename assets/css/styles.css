@@ -16,3 +16,20 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh; }
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #121212;
+  box-shadow: 0.8rem 0.8rem 0px #000;
+  width: 327px;
+  padding: 2.4rem;
+  transition: all 0.3s ease-in-out; }
+  @media (min-width: 1040px) {
+    .card {
+      width: 384px; }
+      .card:hover {
+        box-shadow: 1.6rem 1.6rem 0px #000; } }
+  .card__img {
+    width: 100%;
+    border-radius: 10px; }

@@ -1,0 +1,21 @@
+.card {
+  background-color: $colorWhite;
+  border-radius: 20px;
+  border: 1px solid $colorBlack;
+  box-shadow: 0.8rem 0.8rem 0px #000;
+  width: 327px;
+  padding: 2.4rem;
+  transition: all 0.3s ease-in-out;
+
+  @media (min-width: 1040px) {
+    &:hover {
+      box-shadow: 1.6rem 1.6rem 0px #000;
+    }
+    width: 384px;
+  }
+
+  &__img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
