@@ -32,4 +32,32 @@ body {
         box-shadow: 1.6rem 1.6rem 0px #000; } }
   .card__img {
     width: 100%;
-    border-radius: 10px; }
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 2.4rem; }
+  .card__text {
+    margin-bottom: 2.4rem; }
+  .card__category {
+    color: #121212;
+    background-color: #f4d04e;
+    font-weight: 800;
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 1.2rem; }
+  .card__date {
+    color: #121212;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem; }
+  .card__link {
+    color: #121212;
+    text-decoration: none;
+    margin-bottom: 1.2rem;
+    display: inline-block; }
+    .card__link:hover {
+      color: #f4d04e; }
+  .card__title {
+    font-size: 2rem; }
+  .card__description {
+    color: #808080;
+    font-size: 1.2rem;
+    line-height: 150%; }

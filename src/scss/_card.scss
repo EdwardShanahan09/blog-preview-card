@@ -17,5 +17,47 @@
   &__img {
     width: 100%;
     border-radius: 10px;
+    display: block;
+    margin-bottom: 2.4rem;
+  }
+
+  &__text {
+    margin-bottom: 2.4rem;
+  }
+
+  &__category {
+    color: $colorBlack;
+    background-color: $colorYellow;
+    font-weight: 800;
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 1.2rem;
+  }
+
+  &__date {
+    color: $colorBlack;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  &__link {
+    color: $colorBlack;
+    text-decoration: none;
+    margin-bottom: 1.2rem;
+    display: inline-block;
+
+    &:hover {
+      color: $colorYellow;
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__description {
+    color: $colorGrey;
+    font-size: 1.2rem;
+    line-height: 150%;
   }
 }
