@@ -44,6 +44,9 @@ body {
     display: inline-block;
     padding: 4px 12px;
     margin-bottom: 1.2rem; }
+    @media (min-width: 1040px) {
+      .card__category {
+        font-size: 1.4rem; } }
   .card__date {
     color: #121212;
     font-size: 1.2rem;
@@ -61,3 +64,16 @@ body {
     color: #808080;
     font-size: 1.2rem;
     line-height: 150%; }
+    @media (min-width: 1040px) {
+      .card__description {
+        font-size: 1.4rem; } }
+  .card__author {
+    display: flex;
+    align-items: center; }
+    .card__author-img {
+      width: 3.2rem;
+      display: block;
+      margin-right: 1.2rem; }
+    .card__author-name {
+      font-size: 1.4rem;
+      font-weight: 800; }
